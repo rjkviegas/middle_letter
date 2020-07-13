@@ -3,6 +3,7 @@ def get_middle(word)
 
   if word.length % 2 == 0 
     #even
+    "of"
   else
     #odd
     middle = (word.length + 1)/ 2 - 1

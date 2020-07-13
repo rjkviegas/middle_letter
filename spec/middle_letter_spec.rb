@@ -13,4 +13,12 @@ RSpec.describe do
     expect(get_middle("Cat")).to eq "a"
   end
 
+  it 'return the middle letter of a word if the words length is odd' do
+    expect(get_middle("phone")).to eq "o"
+  end
+
+  it 'return the middle 2 letters if the words length is even' do
+    expect(get_middle("of")).to eq "of"
+  end
+  
 end
