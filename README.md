@@ -18,4 +18,7 @@ get_middle("A")      |   "A"
 get_middle("Dog")    |   "o"
 get_middle("Cat")    |   "a"
 get_middle("phone")  |   "o"
+get_middle("of")     |   "of"
+get_middle("test")   |   "es"
+
 
