@@ -1,19 +1,7 @@
 require 'middle_letter'
 
 RSpec.describe do
-#    it 'tells me length of the word' do
-#        expect(get_middle("word")).to eq 4
-#    end
-
-    it 'returns true if word length is even' do
-        expect(get_middle("word")).to eq true
-    end
-
-    it 'returns middle character of a word of odd length' do
-        expect(get_middle("phone")).to eq "o"
-    end
-
-
-
-    
+  it 'return the middle letter of a word if the words length is odd' do
+  expect(get_middle("A")).to eq "A"
+  end
 end
