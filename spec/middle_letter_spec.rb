@@ -28,4 +28,7 @@ RSpec.describe do
   it 'return the middle 2 letters if the words length is even' do
     expect(get_middle("middle")).to eq "dd"
   end
+  it 'return the middle letter of a word if the words length is odd' do
+    expect(get_middle("testing")).to eq "t"
+  end
 end
