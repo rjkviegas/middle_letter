@@ -6,7 +6,7 @@ return the middle 2 letters if the word's length is even
 
 
 
-Input | Output
-get_middle(word) where word length is odd | middle letter
+Input          | Output
+get_middle("A") where word length is odd | middle letter
 get_middle(word) where word length is even | middle two letters
 
