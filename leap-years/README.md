@@ -18,8 +18,6 @@ leap_year?(4)    |   true
 leap_year?(2004) |   true
 leap_year?(5)    |   false
 
-
-
 ## Acceptance Criteria
 
 ```
@@ -36,3 +34,26 @@ leap_year?(5)    |   false
 2.4.1 :006 > leap_year?(1500)
  => false
 ```
+
+## Extension Options
+
+### EO 1
+
+1. Write a program that takes a start year and an end year and returns an array of all the leap years between.
+
+#### Input/Output
+     input            |     output     
+leap_years(0, 5)      |      [4]
+leap_years(0, 10)     |     [4, 8]
+leap_years(2000, 2010)|    [2000, 2004, 2008]
+
+### EO 2
+
+2. Write a program that when given a year, will return the closest leap year (this could be before or after the given year)
+
+#### Input/Output
+     input             |     output
+closest_leap_year(2000)|     2000
+closest_leap_year(2001)|     2000
+closest_leap_year(2002)|     [2000, 2004]
+closest_leap_year(2003)|     2004
